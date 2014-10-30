@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+
 /**
  * Created by sarah on 10/30/14.
  */
 public class FizzBuzz {
+
     //Checks if a number is divisible by three
     public boolean divisibleByThree(int number) {
         boolean result = false;
@@ -31,5 +34,14 @@ public class FizzBuzz {
 
     public String returnsNumber(int number) {
         return String.valueOf(number);
+    }
+
+    public String playFizzBuzz(int number) {
+        String result = null;
+
+        if(divisibleByFifteen(number)) {
+            result = "FizzBuzz";
+        }
+        return result;
     }
 }

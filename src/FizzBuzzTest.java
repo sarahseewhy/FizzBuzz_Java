@@ -48,4 +48,10 @@ public class FizzBuzzTest {
         String result = game.returnsNumber(4);
         assertEquals("4", result);
     }
+
+    @Test
+    public void gameSaysFizzBuzz() {
+        String result1 = game.playFizzBuzz(15);
+        assertEquals("FizzBuzz", result1);
+    }
 }
