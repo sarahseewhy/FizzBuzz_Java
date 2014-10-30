@@ -11,6 +11,7 @@ public class FizzBuzz {
         return result;
     }
 
+    //Checks if a number is divisible by five
     public boolean divisibleByFive(int number) {
         boolean result = false;
         if(number % 5 == 0) {
@@ -19,6 +20,7 @@ public class FizzBuzz {
         return result;
     }
 
+    //Checks if a number is divisible by fifteen
     public boolean divisibleByFifteen(int number) {
         boolean result = false;
         if(number % 15 == 0) {
