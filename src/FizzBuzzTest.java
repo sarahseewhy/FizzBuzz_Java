@@ -18,4 +18,10 @@ public class FizzBuzzTest {
         boolean result = game.divisibleByThree(4);
         assertEquals(false, result);
     }
+
+    @Test
+    public void divisibleByFive() {
+        boolean result = game.divisibleByFive(5);
+        assertEquals(true, result);
+    }
 }

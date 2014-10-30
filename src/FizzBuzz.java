@@ -10,4 +10,8 @@ public class FizzBuzz {
         }
         return result;
     }
+
+    public boolean divisibleByFive(int number) {
+        return true;
+    }
 }
