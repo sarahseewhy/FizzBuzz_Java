@@ -51,7 +51,15 @@ public class FizzBuzzTest {
 
     @Test
     public void gameSaysFizzBuzz() {
-        String result1 = game.playFizzBuzz(15);
-        assertEquals("FizzBuzz", result1);
+        String result = game.playFizzBuzz(15);
+        assertEquals("FizzBuzz", result);
     }
+
+    @Test
+    public void gameSaysFizz() {
+        String result = game.playFizzBuzz(3);
+        assertEquals("Fizz", result);
+    }
+
+    
 }

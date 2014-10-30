@@ -41,6 +41,8 @@ public class FizzBuzz {
 
         if(divisibleByFifteen(number)) {
             result = "FizzBuzz";
+        }else if(divisibleByThree(number)) {
+            result = "Fizz";
         }
         return result;
     }
