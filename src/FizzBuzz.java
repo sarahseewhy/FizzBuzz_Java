@@ -20,6 +20,10 @@ public class FizzBuzz {
     }
 
     public boolean divisibleByFifteen(int number) {
-        return true;
+        boolean result = false;
+        if(number % 15 == 0) {
+            result = true;
+        }
+        return result;
     }
 }
