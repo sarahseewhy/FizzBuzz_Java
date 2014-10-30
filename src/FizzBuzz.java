@@ -43,6 +43,8 @@ public class FizzBuzz {
             result = "FizzBuzz";
         }else if(divisibleByThree(number)) {
             result = "Fizz";
+        }else if(divisibleByFive(number)) {
+            result = "Buzz";
         }
         return result;
     }
