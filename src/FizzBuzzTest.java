@@ -24,4 +24,10 @@ public class FizzBuzzTest {
         boolean result = game.divisibleByFive(5);
         assertEquals(true, result);
     }
+
+    @Test
+    public void notDivisibleByFive() {
+        boolean result = game.divisibleByFive(7);
+        assertEquals(false, result);
+    }
 }
