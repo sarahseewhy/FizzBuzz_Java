@@ -42,4 +42,10 @@ public class FizzBuzzTest {
         boolean result = game.divisibleByFifteen(17);
         assertEquals(false, result);
     }
+
+    @Test
+    public void returnsNumber() {
+        String result = game.returnsNumber(4);
+        assertEquals("4", result);
+    }
 }

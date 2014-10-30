@@ -26,4 +26,8 @@ public class FizzBuzz {
         }
         return result;
     }
+
+    public String returnsNumber(int number) {
+        return String.valueOf(number);
+    }
 }
