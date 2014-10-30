@@ -45,6 +45,8 @@ public class FizzBuzz {
             result = "Fizz";
         }else if(divisibleByFive(number)) {
             result = "Buzz";
+        }else{
+            result = returnsNumber(number);
         }
         return result;
     }
