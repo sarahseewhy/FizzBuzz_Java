@@ -3,6 +3,6 @@
  */
 public class FizzBuzz {
     public boolean divisibleByThree(int number) {
-        return false;
+        return true;
     }
 }
