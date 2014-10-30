@@ -30,4 +30,10 @@ public class FizzBuzzTest {
         boolean result = game.divisibleByFive(7);
         assertEquals(false, result);
     }
+
+    @Test
+    public void divisibleByFifteen() {
+        boolean result = game.divisibleByFifteen(15);
+        assertEquals(true, result);
+    }
 }

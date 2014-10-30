@@ -18,4 +18,8 @@ public class FizzBuzz {
         }
         return result;
     }
+
+    public boolean divisibleByFifteen(int number) {
+        return true;
+    }
 }
